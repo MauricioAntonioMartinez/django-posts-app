@@ -1,0 +1,5 @@
+user.post_set.create(title="Blog 3",content='Third post content')
+* CREATES A POST BY THE GIVEN USER *
+
+Post.objects.all() // Retrieves all the post_set
+Post.objects.filter(title="Some titile") //  filters by the titile
